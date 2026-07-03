@@ -3,7 +3,7 @@
 
 export const profile = {
   name: "Aayush Gautam",
-  role: "Full-Stack Developer & Backend Engineer",
+  role: "AI-Native Full Stack Developer",
   tagline: "I build scalable software solutions, system monitoring tools, and AI-powered platforms using modern web technologies.",
   location: "Noida, India",
   email: "aayush_2006@outlook.com",
@@ -134,7 +134,7 @@ export const projects = [
       "A full-stack AI platform that analyzes resumes against job descriptions, extracts PDF content, identifies skill gaps, and generates tailored cover letters using modern LLM APIs.",
     accent: "from-violet-500/40 to-fuchsia-500/10",
     tags: ["Next.js", "TypeScript", "Gemini API", "OpenRouter"],
-    link: "https://github.com/Aayush-Everimit/career_copilot",
+    link: "career-copilot-phi-ten.vercel.app",
   },
 
   {
@@ -145,7 +145,7 @@ export const projects = [
       "A scalable disaster management platform that enables emergency reporting, real-time alerts, community feedback, and asynchronous event processing using RabbitMQ.",
     accent: "from-emerald-400/40 to-teal-500/10",
     tags: ["Spring Boot", "React", "PostgreSQL", "RabbitMQ"],
-    link: "https://github.com/Aayush-Everimit/Pulsora_Alert_System",
+    link: "https://github.com/Aayush-Everimit/Pulsora_Alert_System#overview",
   },
 
   {
@@ -156,7 +156,7 @@ export const projects = [
       "A secure full-stack expense management application featuring authentication, budgeting, transaction tracking, and interactive dashboards with cloud-backed data persistence.",
     accent: "from-cyan-400/40 to-blue-500/10",
     tags: ["Next.js", "Clerk", "PostgreSQL", "Drizzle ORM"],
-    link: "https://github.com/Aayush-Everimit/Expense-Manager",
+    link: "expense-manager-three-beta.vercel.app",
   },
 
   {
@@ -190,10 +190,10 @@ export const experiments = [
 ];
 
 export const achievements = [
-  { title: "Java Full Stack Development Certification", org: "CETPA InfoTech", year: "2025", certUrl: "/fullstack-certificate.pdf" },
-  { title: "Data Science & AI Specialization", org: "IIT Roorkee (E&ICT)", year: "2026 (Ongoing)", certUrl: null },
-  { title: "Technical Head Appointment", org: "GeeksforGeeks Student Chapter", year: "2025", certUrl: "/gfg-offer-letter.pdf" },
-  { title: "Data Analytics Simulation Completion", org: "Deloitte Australia", year: "2025", certUrl: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_u7CrGrPpjEWiaJ9vc_1751094951487_completion_certificate.pdf" },
+  { title: "Java Full Stack Development Certification", org: "CETPA InfoTech", year: "2025" },
+  { title: "Data Science & AI Specialization", org: "IIT Roorkee (E&ICT)", year: "2026" },
+  { title: "Technical Head Appointment", org: "GeeksforGeeks Student Chapter", year: "2025" },
+  { title: "Data Analytics Simulation Completion", org: "Deloitte Australia", year: "2025" },
 ];
 
 export const hackathons = [

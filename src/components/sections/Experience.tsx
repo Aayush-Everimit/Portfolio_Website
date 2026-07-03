@@ -9,7 +9,7 @@ export function Experience() {
       </Reveal>
       <Reveal delay={0.1}>
         <h2 className="mt-6 max-w-4xl font-display text-5xl leading-[1.05] md:text-7xl text-gradient">
-          Selected chapters from a long apprenticeship.
+          Building experience through purposeful work.
         </h2>
       </Reveal>
 
