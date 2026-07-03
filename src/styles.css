@@ -63,7 +63,7 @@
   --glow-soft: oklch(0.65 0.15 280);
 }
 
-html, body { background: var(--color-background); color: var(--color-foreground); }
+html, body { background: var(--color-background); color: var(--color-foreground); overflow-x: hidden; }
 html { color-scheme: dark; }
 
 @layer base {

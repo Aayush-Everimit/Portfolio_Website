@@ -66,7 +66,7 @@ function TiltCard({ p, index }: { p: (typeof projects)[number]; index: number })
 
 export function Projects() {
   return (
-    <section id="work" className="relative mx-auto max-w-7xl px-6 py-24 md:py-32">
+    <section id="work" className="relative mx-auto max-w-7xl px-6 py-12 md:py-20">
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <div>
           <Reveal>

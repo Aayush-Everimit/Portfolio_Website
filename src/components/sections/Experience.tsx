@@ -3,7 +3,7 @@ import { Reveal } from "../Reveal";
 
 export function Experience() {
   return (
-    <section id="experience" className="relative mx-auto max-w-7xl px-6 py-24 md:py-32">
+    <section id="experience" className="relative mx-auto max-w-7xl px-6 py-12 md:py-20">
       <Reveal>
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">— 03 / Experience</p>
       </Reveal>

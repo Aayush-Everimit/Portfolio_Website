@@ -4,7 +4,7 @@ import { Reveal } from "../Reveal";
 
 export function Achievements() {
   return (
-    <section id="achievements" className="relative mx-auto max-w-7xl px-6 py-24 md:py-32">
+    <section id="achievements" className="relative mx-auto max-w-7xl px-6 py-12 md:py-20">
       <div className="grid gap-16 lg:grid-cols-2">
         <div>
           <Reveal>

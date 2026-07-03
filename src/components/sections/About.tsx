@@ -9,7 +9,7 @@ export function About() {
   const y = useTransform(scrollYProgress, [0, 1], ["8%", "-8%"]);
 
   return (
-    <section id="about" ref={ref} className="relative mx-auto max-w-7xl px-6 py-32 md:py-44">
+    <section id="about" ref={ref} className="relative mx-auto max-w-7xl px-6 py-16 md:py-24">
       <Reveal>
         <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">— 01 / About</p>
       </Reveal>
