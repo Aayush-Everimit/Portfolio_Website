@@ -123,7 +123,7 @@ export const projects = [
       "An AI-powered assistant for Arch Linux that automates system diagnostics, log analysis, package auditing, and intelligent troubleshooting through a multi-service architecture built with Quarkus and Python.",
     accent: "from-amber-400/40 to-orange-500/10",
     tags: ["Java", "Quarkus", "Python", "FastAPI"],
-    link: "https://github.com/Kernal-Penguins/ArchAngel---An-AI-driven-CLI-Assistant-for-arch-based-sytems",
+    link: "https://github.com/Kernal-Penguins/ArchAngel---An-AI-driven-CLI-Assistant-for-arch-based-sytems#-what-is-archangel",
   },
 
   {
