@@ -12,7 +12,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     nitro({
-      preset: process.env.NITRO_PRESET ?? "node-server",
+      preset: "vercel",
       serveStatic: true,
       publicAssets: [{ dir: "dist/client", maxAge: 31536000 }],
     }),
