@@ -1,4 +1,4 @@
-import { Trophy, Award, Zap } from "lucide-react";
+import { Trophy, Award, Zap, ExternalLink } from "lucide-react";
 import { achievements, hackathons } from "@/data/portfolio";
 import { Reveal } from "../Reveal";
 
@@ -12,19 +12,37 @@ export function Achievements() {
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="mt-6 font-display text-4xl leading-tight md:text-6xl text-gradient">
-              Recognition & certifications.
+              Recognition &amp; certifications.
             </h2>
           </Reveal>
           <div className="mt-10 space-y-3">
             {achievements.map((a, i) => (
               <Reveal key={a.title} delay={i * 0.06}>
-                <div className="group flex items-center gap-5 rounded-2xl glass px-5 py-4 hover:bg-white/5 transition-colors">
+                <div className="group flex items-center gap-4 rounded-2xl glass px-5 py-4 hover:bg-white/5 transition-colors">
                   <Award className="h-5 w-5 text-accent shrink-0" />
                   <div className="min-w-0 flex-1">
-                    <p className="truncate font-display text-lg">{a.title}</p>
+                    <p className="font-display text-base leading-snug md:text-lg">{a.title}</p>
                     <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted-foreground">{a.org}</p>
                   </div>
-                  <span className="font-mono text-xs text-muted-foreground">{a.year}</span>
+                  <div className="flex shrink-0 flex-col items-end gap-1.5">
+                    <span className="font-mono text-xs text-muted-foreground whitespace-nowrap">{a.year}</span>
+                    {a.certUrl ? (
+                      <a
+                        href={a.certUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 rounded-full border border-accent/40 px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.15em] text-accent hover:bg-accent hover:text-accent-foreground transition-colors"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <ExternalLink className="h-2.5 w-2.5" />
+                        Cert
+                      </a>
+                    ) : (
+                      <span className="inline-flex items-center rounded-full border border-border px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.15em] text-muted-foreground">
+                        In Progress
+                      </span>
+                    )}
+                  </div>
                 </div>
               </Reveal>
             ))}

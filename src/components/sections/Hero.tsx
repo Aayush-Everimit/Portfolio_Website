@@ -68,7 +68,7 @@ export function Hero() {
         <div className="noise-overlay" />
       </div>
 
-      <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col justify-between px-6 pt-32 pb-16">
+      <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col justify-between px-4 sm:px-6 pt-28 pb-12">
         {/* Top meta */}
         <motion.div
           initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }}
@@ -82,16 +82,16 @@ export function Hero() {
         </motion.div>
 
         {/* Center title & portrait layout */}
-        <div className="my-10 grid grid-cols-1 gap-12 md:grid-cols-[1fr_1.4fr] md:items-center">
+        <div className="my-8 grid grid-cols-1 gap-8 md:grid-cols-[1fr_1.4fr] md:items-center md:gap-12">
           <div className="md:order-2">
             <motion.p
               initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2.3 }}
-              className="ml-10 mb-2 font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground"
+              className="ml-0 mb-2 font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground"
             >
               — Portfolio / 2026 Edition
             </motion.p>
 
-            <h1 className="pl-6 md:pl-10 lg:pl-16 font-display text-[12vw] leading-[0.8] tracking-[-0.04em] md:text-[8vw] lg:text-[7vw]">
+            <h1 className="font-display text-[14vw] leading-[0.85] tracking-[-0.04em] sm:text-[12vw] md:text-[8vw] lg:text-[7vw]">
               {["Building", "Intelligent", "Systems."].map((line, li) => (
                 <span key={li} className="block overflow-hidden">
                   <motion.span
