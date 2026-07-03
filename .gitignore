@@ -1,1 +1,21 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+.output/
+.vercel/output/
+.vercel/project.json
+
+# Nitro cache
+node_modules/.nitro/
+node_modules/.vite/
+
+# Env files
+.env
+.env.local
+.env.production
+
+# Misc
+.DS_Store
+*.log
