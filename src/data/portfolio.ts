@@ -134,7 +134,7 @@ export const projects = [
       "A full-stack AI platform that analyzes resumes against job descriptions, extracts PDF content, identifies skill gaps, and generates tailored cover letters using modern LLM APIs.",
     accent: "from-violet-500/40 to-fuchsia-500/10",
     tags: ["Next.js", "TypeScript", "Gemini API", "OpenRouter"],
-    link: "career-copilot-phi-ten.vercel.app",
+    link: "https://career-copilot-phi-ten.vercel.app/",
   },
 
   {
@@ -156,7 +156,7 @@ export const projects = [
       "A secure full-stack expense management application featuring authentication, budgeting, transaction tracking, and interactive dashboards with cloud-backed data persistence.",
     accent: "from-cyan-400/40 to-blue-500/10",
     tags: ["Next.js", "Clerk", "PostgreSQL", "Drizzle ORM"],
-    link: "expense-manager-three-beta.vercel.app",
+    link: "https://expense-manager-three-beta.vercel.app",
   },
 
   {
