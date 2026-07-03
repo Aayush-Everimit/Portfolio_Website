@@ -1,0 +1,26 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-D28vouLi.js
+var tsrStartManifest = () => ({ routes: {
+	__root__: {
+		filePath: "/home/aayush/Yushi_Programmer/Yushi_Programmer/portfolio/Aayush-PortWEB/src/routes/__root.tsx",
+		children: ["/"],
+		preloads: ["/assets/index-D1UHXtly.js"],
+		scripts: [{ attrs: {
+			type: "module",
+			async: !0,
+			src: "/assets/index-D1UHXtly.js"
+		} }]
+	},
+	"/": {
+		filePath: "/home/aayush/Yushi_Programmer/Yushi_Programmer/portfolio/Aayush-PortWEB/src/routes/index.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/routes-DhbuTPdm.js",
+			"/assets/createLucideIcon-CJP9CUwt.js",
+			"/assets/use-spring-DSKUj19w.js",
+			"/assets/Magnetic-BvuRwdYk.js",
+			"/assets/Reveal-CXLeUiLE.js"
+		]
+	}
+} });
+//#endregion
+export { tsrStartManifest };
