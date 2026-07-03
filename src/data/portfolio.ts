@@ -190,10 +190,10 @@ export const experiments = [
 ];
 
 export const achievements = [
-  { title: "Java Full Stack Development Certification", org: "CETPA InfoTech", year: "2025" },
-  { title: "Data Science & AI Specialization", org: "IIT Roorkee (E&ICT)", year: "2026" },
-  { title: "Technical Head Appointment", org: "GeeksforGeeks Student Chapter", year: "2025" },
-  { title: "Data Analytics Simulation Completion", org: "Deloitte Australia", year: "2025" },
+  { title: "Java Full Stack Development Certification", org: "CETPA InfoTech", year: "2025", certUrl: "/fullstack-certificate.pdf" },
+  { title: "Data Science & AI Specialization", org: "IIT Roorkee (E&ICT)", year: "2026 (Ongoing)", certUrl: null },
+  { title: "Technical Head Appointment", org: "GeeksforGeeks Student Chapter", year: "2025", certUrl: "/gfg-offer-letter.pdf" },
+  { title: "Data Analytics Simulation Completion", org: "Deloitte Australia", year: "2025", certUrl: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_u7CrGrPpjEWiaJ9vc_1751094951487_completion_certificate.pdf" },
 ];
 
 export const hackathons = [
