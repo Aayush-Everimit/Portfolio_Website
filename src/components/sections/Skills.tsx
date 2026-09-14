@@ -55,7 +55,10 @@ export function Skills() {
           <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">— Tech stack</p>
         </Reveal>
         <div className="mt-8 overflow-hidden mask-fade">
-          <div className="flex w-max gap-12 animate-marquee">
+          <div 
+            className="flex w-max gap-12 animate-marquee" 
+            style={{ animationDuration: "60s" }}
+          >
             {[...techStack, ...techStack].map((t, i) => (
               <span key={i} className="font-display text-5xl md:text-7xl text-muted-foreground/40 hover:text-foreground transition-colors">
                 {t}
