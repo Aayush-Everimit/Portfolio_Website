@@ -41,7 +41,7 @@ function HeroPortrait() {
       {/* Main Image */}
       <div className="relative h-full w-full overflow-hidden rounded-[22px]">
         <img
-            src="/creator-portrait.png?v=2" 
+            src="/aayush-portrait.png?v=2" 
             alt="Aayush Gautam"
             className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />
