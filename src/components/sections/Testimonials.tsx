@@ -4,13 +4,13 @@ import { Reveal } from "../Reveal";
 
 export function Testimonials() {
   return (
-    <section id="testimonials" className="relative mx-auto max-w-7xl px-6 py-24 md:py-32">
+    <section id="testimonials" className="relative mx-auto max-w-7xl px-6 py-12 md:py-20">
       <Reveal>
-        <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">— 07 / Kind words</p>
+        <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">— 07 / The mindset</p>
       </Reveal>
       <Reveal delay={0.1}>
         <h2 className="mt-6 max-w-3xl font-display text-5xl leading-[1.05] md:text-7xl text-gradient">
-          From people I've shipped with.
+          Engineering with purpose.
         </h2>
       </Reveal>
 

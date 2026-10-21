@@ -7,7 +7,7 @@ export function Contact() {
   return (
     <section id="contact" className="relative mx-auto max-w-7xl px-6 py-12 md:py-20">
       <Reveal>
-        <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">— 07 / Contact</p>
+        <p className="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">— 08 / Contact</p>
       </Reveal>
 
       <Reveal delay={0.05}>

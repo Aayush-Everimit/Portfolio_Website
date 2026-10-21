@@ -14,6 +14,7 @@ const Projects = lazy(() => import("@/components/sections/Projects").then(m => (
 const Experience = lazy(() => import("@/components/sections/Experience").then(m => ({ default: m.Experience })));
 const Achievements = lazy(() => import("@/components/sections/Achievements").then(m => ({ default: m.Achievements })));
 const Education = lazy(() => import("@/components/sections/Education").then(m => ({ default: m.Education })));
+const Testimonials = lazy(() => import("@/components/sections/Testimonials").then(m => ({ default: m.Testimonials })));
 const Contact = lazy(() => import("@/components/sections/Contact").then(m => ({ default: m.Contact })));
 
 export const Route = createFileRoute("/")({
@@ -44,6 +45,7 @@ function Index() {
             <Experience />
             <Achievements />
             <Education />
+            <Testimonials />
             <Contact />
           </Suspense>
         </main>
