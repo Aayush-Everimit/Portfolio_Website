@@ -16,62 +16,100 @@ export const profile = {
   },
 };
 
+
 export const about = {
-  heading: "Backend by craft. Full-Stack by obsession.",
+  heading: "Backend by craft. AI-powered by curiosity.",
   paragraphs: [
-    "I'm a motivated Computer Science undergraduate at Guru Gobind Singh Indraprastha University with a strong foundation in full-stack development, backend engineering, and AI-powered applications.",
-    "I have experience building scalable software solutions using Java, Spring Boot, Quarkus, React, Next.js, and PostgreSQL, ranging from AI-powered career tools to disaster monitoring platforms and automated system assistants.",
-    "I'm passionate about software engineering, problem-solving, and building impactful technology products that deliver true visual and functional value.",
+    "I'm a Computer Science undergraduate at Guru Gobind Singh Indraprastha University with a 9.2 CGPA, building a strong foundation in software engineering, backend development, and Artificial Intelligence.",
+    "I work with Java, Spring Boot, Spring Cloud, Quarkus, React, Next.js, and PostgreSQL to build practical software systems, from microservices-based platforms to AI-powered applications and Linux utilities.",
+    "Alongside software engineering, I'm expanding my expertise in Data Science, Machine Learning, and Generative AI through structured learning and hands-on practice with Python, NumPy, Pandas, embeddings, RAG, and LLM integrations. I also actively strengthen my problem-solving skills through DSA, with 100+ LeetCode problems solved.",
   ],
   stats: [
-    { label: "B.Tech CGPA", value: "9.1" },
-    { label: "Projects built", value: "15+" },
-    { label: "Deloitte simulation dashboards", value: "10+" },
+    { label: "B.Tech CGPA", value: "9.2" },
+    { label: "LeetCode Problems", value: "100+" },
+    { label: "Deloitte Dashboards", value: "10+" },
   ],
 };
 
+
+
 export const skills = [
-  { name: "Java", level: 92, category: "Languages" },
-  { name: "JavaScript", level: 90, category: "Languages" },
-  { name: "Spring Boot", level: 93, category: "Backend" },
-  { name: "Quarkus", level: 86, category: "Backend" },
-  { name: "React & Next.js", level: 91, category: "Frontend" },
-  { name: "PostgreSQL & MySQL", level: 90, category: "Database" },
-  { name: "OAuth 2.0 / JWT", level: 89, category: "Authentication" },
-  { name: "Clerk Authentication", level: 88, category: "Authentication" },
-  { name: "System Design", level: 84, category: "Computer Science" },
-  { name: "Linux", level: 88, category: "Operating Systems" },
-  { name: "Data Structures & Algorithms", level: 90, category: "Computer Science" },
+  { name: "Java", level: 90, category: "Languages" },
+  { name: "Python", level: 78, category: "Languages" },
+  { name: "JavaScript & SQL", level: 85, category: "Languages" },
+
+  { name: "Spring Boot & Spring MVC", level: 88, category: "Backend" },
+  { name: "Spring Cloud & Microservices", level: 82, category: "Backend" },
+  { name: "Quarkus & REST APIs", level: 82, category: "Backend" },
+
+  { name: "React & Next.js", level: 82, category: "Frontend" },
+  { name: "PostgreSQL & MySQL", level: 85, category: "Databases" },
+  { name: "MongoDB", level: 75, category: "Databases" },
+  { name: "Git, Docker & Linux", level: 82, category: "Tools & Platforms" },
+
+  { name: "NumPy & Pandas", level: 65, category: "Data Science" },
+  { name: "Machine Learning Fundamentals", level: 60, category: "AI & Machine Learning" },
+  { name: "LLMs, Embeddings & RAG", level: 72, category: "Generative AI" },
+  { name: "Gemini API & Ollama", level: 78, category: "AI Integration" },
+
+  { name: "Data Structures & Algorithms", level: 85, category: "Computer Science" },
+  { name: "OOP, DBMS & OS", level: 82, category: "Computer Science" },
+  { name: "Authentication & Authorization", level: 80, category: "Security" },
 ];
+
+
 export const techStack = [
+  // Programming Languages
   "Java",
+  "Python",
   "JavaScript",
   "TypeScript",
-  "Python",
+  "SQL",
+
+  // Backend & Frameworks
   "Spring Boot",
-  "Spring Security",
   "Spring MVC",
+  "Spring Security",
+  "Spring Cloud",
   "Hibernate",
   "JPA",
   "Quarkus",
+  "REST APIs",
+  "Microservices",
+
+  
   "React",
   "Next.js",
-  "Node.js",
-  "Express.js",
   "HTML5",
   "CSS3",
-  "Tailwind CSS",
   "Bootstrap",
+  "Tailwind CSS",
+
+  
   "PostgreSQL",
   "MySQL",
   "MongoDB",
-  "SQL",
   "Drizzle ORM",
   "Neon",
+
+  
+  "NumPy",
+  "Pandas",
+  "Machine Learning",
+  "Generative AI",
+  "LLM Integration",
+  "Embeddings",
+  "RAG",
+  "Gemini API",
+  "OpenRouter",
+  "Ollama",
+
+  
   "Clerk",
   "JWT",
   "OAuth 2.0",
-  "REST APIs",
+
+  
   "Docker",
   "Docker Compose",
   "Git",
@@ -79,62 +117,89 @@ export const techStack = [
   "Linux",
   "Arch Linux",
   "Bash",
-  "Hyprland",
-  "NumPy",
-  "Pandas",
-  "Gemini API",
-  "OpenRouter",
-  "Vercel",
   "Maven",
-  "System Design",
-  "Microservices",
+  "Vercel",
+
+  
+  "DSA",
   "OOP",
   "DBMS",
   "Operating Systems",
   "Computer Networks",
   "Theory of Computation",
-  "DSA",
+  "System Design",
   "Full Stack Development",
 ];
 
 export const experience = [
   {
-    company: "GeeksforGeeks Student Chapter",
-    role: "Technical Head",
-    period: "2025 — Present",
-    description: "Lead technical events, coding workshops, and community-driven learning initiatives. Mentor students in programming, project development, and problem-solving practices.",
-    tags: ["Leadership", "Mentorship", "Workshops"],
+    company: "CETPA Infotech Pvt. Ltd.",
+    role: "Java Full Stack Intern",
+    period: "December 2024 — September 2025",
+    description: "Completed a 9-month Java Full Stack Development internship with Data Structures & Algorithms training. Developed an Enterprise Banking Management Platform, applying Java, object-oriented programming, database integration, and backend development concepts.",
+    tags: ["Java", "Spring Boot", "SQL", "DSA"],
   },
   {
-    company: "Deloitte Australia (Virtual)",
-    role: "Data Analytics Simulation",
+    company: "GeeksforGeeks Student Chapter, DTC",
+    role: "Technical Lead",
+    period: "September 2025 — June 2026",
+    description: "Coordinated technical activities and supported coding workshops, technical events, and student learning initiatives. Collaborated with chapter members to prepare technical presentations and learning resources.",
+    tags: ["Technical Leadership", "Collaboration", "Workshops"],
+  },
+  {
+    company: "Deloitte Australia",
+    role: "Data Analytics Virtual Experience",
     period: "June 2025",
-    description: "Developed 10+ dashboards, reducing reporting time by approximately 40%. Participated in simulation modules.",
-    tags: ["Data Analytics", "Dashboards", "Simulation"],
+    description: "Completed a virtual experience involving business data analysis and visualization. Created 10+ dashboards to present insights from business datasets and support data-driven decision-making.",
+    tags: ["Data Analytics", "Data Visualization", "Dashboards"],
   },
 ];
 
+
+
 export const projects = [
+  {
+    title: "Rido",
+    category: "AI-Powered Microservices Ride-Hailing Platform",
+    year: "2026",
+    description:
+      "A ride-hailing platform built around Java and Spring Boot microservices, with service discovery and centralized configuration through Spring Cloud Eureka and Config Server. Integrates a Python FastAPI-based AI service with the backend.",
+    accent: "from-sky-400/40 to-indigo-500/10",
+    tags: ["Java", "Spring Boot", "Spring Cloud", "PostgreSQL", "FastAPI", "Docker"],
+    link: "https://github.com/Aayush-Everimit",
+  },
+
   {
     title: "ArchAngel",
     category: "AI Linux System Assistant",
     year: "2026",
     description:
-      "An AI-powered assistant for Arch Linux that automates system diagnostics, log analysis, package auditing, and intelligent troubleshooting through a multi-service architecture built with Quarkus and Python.",
+      "A local AI-assisted utility for Arch Linux that supports system inspection, diagnostics, log analysis, and update auditing. Combines a Java Quarkus backend with Python FastAPI services and a locally hosted LLM through Ollama.",
     accent: "from-amber-400/40 to-orange-500/10",
-    tags: ["Java", "Quarkus", "Python", "FastAPI"],
+    tags: ["Java", "Quarkus", "Python", "FastAPI", "Ollama", "Linux"],
     link: "https://github.com/Kernal-Penguins/ArchAngel---An-AI-driven-CLI-Assistant-for-arch-based-sytems#-what-is-archangel",
   },
 
   {
     title: "Career Copilot",
-    category: "AI Career Platform",
+    category: "AI Career Assistant",
     year: "2026",
     description:
-      "A full-stack AI platform that analyzes resumes against job descriptions, extracts PDF content, identifies skill gaps, and generates tailored cover letters using modern LLM APIs.",
+      "An AI-powered career platform that evaluates resumes against job descriptions, identifies matching and missing skills, generates tailored cover letters, and provides interview preparation support using LLM APIs.",
     accent: "from-violet-500/40 to-fuchsia-500/10",
-    tags: ["Next.js", "TypeScript", "Gemini API", "OpenRouter"],
+    tags: ["Next.js", "TypeScript", "Gemini API", "OpenRouter", "Clerk", "PostgreSQL"],
     link: "https://career-copilot-phi-ten.vercel.app/",
+  },
+
+  {
+    title: "Expense Tracker",
+    category: "Personal Finance Management",
+    year: "2026",
+    description:
+      "A full-stack personal finance application for tracking transactions, managing budgets, and monitoring spending through interactive dashboards. Uses authentication, PostgreSQL persistence, and an ORM-backed data layer.",
+    accent: "from-cyan-400/40 to-blue-500/10",
+    tags: ["Next.js", "React", "Clerk", "PostgreSQL", "Drizzle ORM"],
+    link: "https://expense-manager-three-beta.vercel.app",
   },
 
   {
@@ -142,21 +207,10 @@ export const projects = [
     category: "Disaster Response Platform",
     year: "2026",
     description:
-      "A scalable disaster management platform that enables emergency reporting, real-time alerts, community feedback, and asynchronous event processing using RabbitMQ.",
+      "A disaster management platform designed to support emergency reporting, alerts, and community feedback. Uses a Spring Boot backend, React frontend, and RabbitMQ for asynchronous event processing.",
     accent: "from-emerald-400/40 to-teal-500/10",
     tags: ["Spring Boot", "React", "PostgreSQL", "RabbitMQ"],
     link: "https://github.com/Aayush-Everimit/Pulsora_Alert_System#overview",
-  },
-
-  {
-    title: "Expense Tracker",
-    category: "Personal Finance Manager",
-    year: "2026",
-    description:
-      "A secure full-stack expense management application featuring authentication, budgeting, transaction tracking, and interactive dashboards with cloud-backed data persistence.",
-    accent: "from-cyan-400/40 to-blue-500/10",
-    tags: ["Next.js", "Clerk", "PostgreSQL", "Drizzle ORM"],
-    link: "https://expense-manager-three-beta.vercel.app",
   },
 
   {
@@ -164,7 +218,7 @@ export const projects = [
     category: "Freelance Marketplace",
     year: "2025",
     description:
-      "A full-stack freelance and internship marketplace that streamlines job posting, candidate applications, and role management with secure authentication and a scalable backend.",
+      "A full-stack freelance marketplace for connecting opportunities with applicants. Supports job posting, candidate applications, and role management through a React frontend and Spring Boot backend.",
     accent: "from-rose-400/40 to-pink-500/10",
     tags: ["Spring Boot", "React", "PostgreSQL", "JWT"],
     link: "https://github.com/Aayush-Everimit/Profecto_Freelance_Platform",
@@ -175,26 +229,64 @@ export const projects = [
     category: "Enterprise Workforce Platform",
     year: "2026 • In Progress",
     description:
-      "An enterprise workforce management platform for employee management, task scheduling, workload tracking, analytics, and operational dashboards. Currently under active development.",
+      "An in-progress workforce management platform focused on employee records, task scheduling, workload tracking, and operational analytics. Intended to bring workforce workflows and management insights into one application.",
     accent: "from-indigo-500/40 to-sky-500/10",
     tags: ["Spring Boot", "React", "PostgreSQL"],
     link: "https://github.com/Aayush-Everimit/OptiFORCE_",
-  }
+  },
 ];
+
+
 
 export const experiments = [
   "IPL Win Predictor",
-  "AI fitness App",
-  "Weather Forecast",
-  "Currency Converter",
+  "AI-Powered Fitness App",
+  "Weather Forecast Application",
+  "Real-Time Currency Converter",
 ];
 
+
+
 export const achievements = [
-  { title: "Java Full Stack Development Certification", org: "CETPA InfoTech", year: "2025", certUrl: "/fullstack-certificate.pdf" },
-  { title: "Data Science & AI Specialization", org: "IIT Roorkee (E&ICT)", year: "2026 (Ongoing)", certUrl: null },
-  { title: "Technical Head Appointment", org: "GeeksforGeeks Student Chapter", year: "2025", certUrl: "/gfg-offer-letter.pdf" },
-  { title: "Data Analytics Simulation Completion", org: "Deloitte Australia", year: "2025", certUrl: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_u7CrGrPpjEWiaJ9vc_1751094951487_completion_certificate.pdf" },
+  {
+    title: "Java Full Stack Development with DSA",
+    org: "CETPA Infotech",
+    year: "2025",
+    certUrl: "/fullstack-certificate.pdf",
+  },
+  {
+    title: "Data Science & AI Program",
+    org: "IIT Roorkee E&ICT Academy",
+    year: "2026 (Ongoing)",
+    certUrl: null,
+  },
+  {
+    title: "Technical Lead Appointment",
+    org: "GeeksforGeeks Student Chapter, DTC",
+    year: "2025",
+    certUrl: "/gfg-offer-letter.pdf",
+  },
+  {
+    title: "Data Analytics Virtual Experience",
+    org: "Deloitte Australia",
+    year: "2025",
+    certUrl: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_u7CrGrPpjEWiaJ9vc_1751094951487_completion_certificate.pdf",
+  },
+  {
+    title: "Java Programming: 5-Star Gold Badge",
+    org: "HackerRank",
+    year: "2026",
+    certUrl: null,
+  },
+  {
+    title: "100+ Problems Solved",
+    org: "LeetCode",
+    year: "2026",
+    certUrl: "https://leetcode.com/u/Codeimity/",
+  },
 ];
+
+
 
 export const hackathons = [
   { name: "FOSS Hack 2026", result: "Special Mention", year: "2026" },
@@ -206,24 +298,27 @@ export const education = [
     school: "Guru Gobind Singh Indraprastha University",
     degree: "B.Tech, Computer Science & Engineering",
     period: "2024 — Expected 2028",
-    note: "CGPA: 9.1 • Expected Graduation: June 2028 • New Delhi, India",
+    note: "CGPA: 9.2/10 • Expected Graduation: June 2028 • New Delhi, India",
   },
 ];
 
+
+
 export const testimonials = [
   {
-    quote: "Aayush is a brilliant problem solver. His grasp of backend structures in Spring Boot and Quarkus allowed us to deliver stable components ahead of schedule.",
-    name: "Dr. R. Verma",
-    role: "Faculty Advisor, GFG Chapter",
+    quote: "I focus on building backend applications with Java, Spring Boot, REST APIs, and microservices, while strengthening my understanding of databases and core computer science fundamentals.",
+    name: "Backend Engineering",
+    role: "Technical Focus",
   },
   {
-    quote: "The AI Copilot platform Aayush built has a beautifully intuitive architecture. His integration of multiple model providers showcases true software craft.",
-    name: "Aditya Roy",
-    role: "Project Mentor",
+    quote: "I'm exploring Machine Learning, Data Science, and Generative AI through structured learning and projects involving LLM APIs, local models, and AI-powered applications.",
+    name: "AI & Data Science",
+    role: "Learning & Projects",
   },
   {
-    quote: "Obsessively organized and technically sound. He restructured our event management codebase and made mentoring student groups effortless.",
-    name: "Tanya Sen",
-    role: "President, GeeksforGeeks Chapter",
+    quote: "I actively practice Data Structures and Algorithms, having solved 100+ LeetCode problems, and contribute to technical learning initiatives through my experience with the GeeksforGeeks Student Chapter at DTC.",
+    name: "Problem Solving",
+    role: "Practice & Leadership",
   },
 ];
+
